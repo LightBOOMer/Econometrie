@@ -9,7 +9,7 @@ jobs:
       - name: Compile LaTeX
         uses: xu-cheng/latex-action@v3
         with:
-          root_file: main.tex  # ⬅️ REMPLACEZ par votre fichier principal !
+          root_file: Cours_d_Econometrie.tex  # ⬅️ REMPLACEZ par votre fichier principal !
       - name: Upload PDF
         uses: actions/upload-artifact@v4
         with:
